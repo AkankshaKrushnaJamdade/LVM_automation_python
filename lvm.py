@@ -220,7 +220,7 @@ while inp != 12:
                         print(op,"\n")
 
                     elif subinp == 2:
-                        lvinp = input("\n-->>Enter LV name")
+                        lvinp = input("\n-->>Enter LV name: ")
                         try:
                             op = sp.getoutput("lvdisplay {}".format(lvinp))
                             print(op,"\n")
@@ -249,7 +249,7 @@ while inp != 12:
                         print(op,"\n")
 
                     elif subinp == 2:
-                        vginp = input("\n-->>Enter VG name")
+                        vginp = input("\n-->>Enter VG name: ")
                         try:
                             op = sp.getoutput("vgdisplay {}".format(vginp))
                             print(op,"\n")
